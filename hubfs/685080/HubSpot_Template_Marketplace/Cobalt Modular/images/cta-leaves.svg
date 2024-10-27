@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="378" height="322.044" viewBox="0 0 378 322.044">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="gray" stop-opacity="0.251"/>
+      <stop offset="0.54" stop-color="gray" stop-opacity="0.122"/>
+      <stop offset="1" stop-color="gray" stop-opacity="0.102"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_690" data-name="Group 690" transform="translate(-0.008 -0.003)">
+    <g id="Group_687" data-name="Group 687" transform="translate(0.008 24.4)" opacity="0.5">
+      <path id="Path_718" data-name="Path 718" d="M206.44,281.875S144.43,250.495,170.93,180.4,101.485,86,101.485,86,82.69,154.248,118,199.7,166.933,320.6,206.44,281.875Z" transform="translate(-96.488 -86)" fill="#6c63ff"/>
+      <path id="Path_719" data-name="Path 719" d="M109.8,86s26.163,45.332,39.364,104.3,34.695,107.631,65.272,90.462" transform="translate(-104.803 -86)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+    <g id="Group_688" data-name="Group 688" transform="translate(70.218 86.827)" opacity="0.5">
+      <path id="Path_720" data-name="Path 720" d="M309.954,397.222s-24.8-35.6,8.1-69.907-11.948-75-11.948-75-28.283,35.329-21.531,71.953S278.48,409.358,309.954,397.222Z" transform="translate(-283.534 -252.31)" fill="#6c63ff"/>
+      <path id="Path_721" data-name="Path 721" d="M322.383,252.31a296.109,296.109,0,0,1-6.794,72.64c-8.671,38.587-10.184,73.338,10.762,71.533" transform="translate(-299.807 -252.31)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

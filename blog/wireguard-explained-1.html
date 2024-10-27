@@ -1,0 +1,196 @@
+﻿<!doctype html>
+<html amp="" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Wireguard Explained</title>
+    <link rel="canonical" href="wireguard-explained.html">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+
+    <meta name="author" content="Nick Snow">
+
+    <meta name="description" content="WireGuard is a revolutionary new VPN protocol that has been making waves in the cybersecurity world. In this article, we&#39;ll dive deeper into what makes WireGuard so special and explore its benefits and potential use cases.">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <meta name="generator" content="HubSpot">
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Wireguard Explained",
+        "datePublished": "2023-05-02T09:46:07Z",
+        "dateModified": "2023-05-02T09:46:07.380Z",
+        "mainEntityOfPage": "https://www.vpnresellers.com/blog/wireguard-explained",
+        "author": {
+          "@type": "Person",
+          "name": "Nick Snow"
+        },
+        "image": {
+         "@type": "ImageObject",
+        
+          
+          "width": 1920,
+          
+          
+          "height": 953,
+          
+          "url": "https://532220.fs1.hubspotusercontent-na1.net/hubfs/532220/What-is-WireGuard.png"
+        
+        },
+        "publisher" : {
+          "@type": "Organization",
+          "logo": {
+            "@type": "ImageObject",
+            
+            "url": "/hs/hsstatic/content_shared_assets/static-1.4092/img/default-amp-logo.png",
+            "width": 60,
+            "height": 60
+            
+          },
+          "name": "VPNresellers blog"
+        }
+      }
+    </script>
+    <script async="" custom-element="amp-analytics" src="../v0/amp-analytics-0.1.js"></script>
+    <style amp-boilerplate="">body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style>
+    <noscript>
+      <style amp-boilerplate="">body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style>
+    </noscript>
+  <style amp-custom="">
+      body {
+        color: #404040;
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-size: 18px;
+        line-height: 1.6;
+      }
+
+      .hs-page-width-normal {
+        box-sizing: content-box;
+        margin: 0 auto;
+        padding: 0 5vw 5vw;
+      }
+
+      .info {
+        font-size: 14px
+      }
+
+      h1 {
+        color: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-size: 26px;
+        line-height: 1.5;
+        font-weight: 600;
+      }
+
+      h1 a {
+        color: #404040;
+      }
+
+      h2 {
+        color: #404040;
+        font-size: 22px;
+        line-height: 38px;
+      }
+
+      a {
+        color: #6c63ff;
+        text-decoration: none;
+      }
+
+      .logo-header-text {
+        color: #1e1e1e;
+        font-size: 36px;
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        line-height: 2.0;
+        font-weight: bold;
+        vertical-align: text-bottom;
+      }
+
+      .hs-page-width-normal {
+        padding: 5vw;
+      }
+
+      .iframe-placeholder {
+        background-color: #bbb;
+      }
+
+      .header-banner {
+        padding: 3vw 1vw;
+        border-color: #dcdcdc;
+        border-bottom-style: solid;
+        border-bottom-width: thin;
+        background-color: #ffffff;
+        color: #1e1e1e;
+        text-align: center;
+      }
+
+      .full-link {
+        text-align: center;
+      }
+
+      .full-link a {
+        border: 1px solid #dcdcdc;
+        background-color: transparent;
+        color: #6c63ff;
+        cursor: pointer;
+        display: block;
+        font-size: 14px;
+        line-height: 18px;
+        margin: 0 auto;
+        max-width: 200px;
+        padding: 11px 16px;
+        text-decoration: none;
+        width: 50%;
+      }
+
+    </style>
+    <script async="" src="../v0.js"></script>
+  </head>
+  <body>
+    <div class="row-fluid">
+      <div class="header-banner">
+        <a class="blog-link" href="../blog.html">
+        
+          <span class="logo-header-text">VPN reseller blog</span>
+         </a>
+      </div>  
+      <div class="hs-page-width-normal">
+        <div class="post-header">
+          <h1><a href="wireguard-explained.html">Wireguard Explained</a></h1>
+        </div>
+        <div class="info">
+          <span> Written by <a class="author-link" href="author/nick-snow.html">Nick Snow</a> | May 2, 2023 9:46:07 AM </span>
+        </div>
+        <div class="blog-section">
+          <span><p>WireGuard is a revolutionary new VPN protocol that has been making waves in the cybersecurity world. Its innovative design and advanced security features have made it a popular choice among users and service providers alike. In this article, we'll dive deeper into what makes WireGuard so special and explore its benefits and potential use cases.</p>
+<p>WireGuard was created in 2016 by Jason A. Donenfeld, a security researcher and developer. He wanted to create a VPN protocol that was fast, secure, and easy to use, unlike other VPN protocols that can be slow and complicated to set up.</p>
+<p>One of the key features of WireGuard is its speed. Unlike other VPN protocols, WireGuard uses a modern and efficient cryptographic protocol called the Noise protocol framework. This protocol is designed to be fast and lightweight, making it ideal for mobile devices and low-powered devices. Additionally, WireGuard's small and efficient codebase means that it can be easily integrated into other software and applications.</p>
+<p>WireGuard's security features are also top-notch. It uses state-of-the-art cryptography algorithms, such as Curve25519 for key exchange, ChaCha20 for encryption, and Poly1305 for message authentication. These algorithms ensure that all data transmitted through a WireGuard tunnel is protected from eavesdropping and tampering.</p>
+<p>Another advantage of WireGuard is its simplicity. Its configuration is based on simple and concise text files, which makes it easy to set up and manage. Additionally, WireGuard is designed to work seamlessly with network address translation (NAT), which means that it can operate without the need for complex routing or port forwarding.</p>
+<p>WireGuard's simplicity and efficiency also make it well-suited for embedded systems, such as routers or IoT devices. Its small size and minimal dependencies make it easy to integrate into existing software stacks, and its simplicity and efficiency make it a good fit for resource-constrained environments.</p>
+<p>WireGuard has gained popularity among VPN service providers due to its simplicity and efficiency, as well as its security and speed. Its ease of use and low overhead make it a good choice for users who are looking for a fast and reliable VPN solution that is easy to set up and manage.</p>
+<p>WireGuard has many potential use cases, from protecting personal privacy and security to enabling remote access to business networks. For example, a person who wants to protect their online privacy and security might use WireGuard to connect to a VPN server that is located in a different country. This would allow them to access websites and online services that might be restricted or censored in their home country.</p>
+<p>Similarly, businesses can use WireGuard to connect remote employees to their network securely and efficiently. WireGuard's lightweight design and streamlined codebase make it well-suited for use in embedded systems, which means that it can be used in a wide range of devices, from routers to IoT devices.</p>
+<p>In summary, WireGuard is a modern and efficient VPN protocol that offers several advantages over other VPN solutions. Its simplicity, speed, and security make it a good fit for a wide range of applications, from embedded systems to cloud-based VPN services. As more users and service providers adopt WireGuard, we can expect to see it become an increasingly popular choice for VPN users and administrators alike.<br><br>VPNresellers uses Wiregaurd as its default protocol for all the applications because it has proven to work the best for both speed and security.</p><amp-analytics type="googleanalytics"><script type="application/json">{
+  "vars": {
+    "account": "UA-97633988-3"
+  },
+  "triggers": {
+    "trackPageview": {
+      "on": "visible",
+      "request": "pageview"
+    }
+  }
+}
+</script></amp-analytics></span>
+        </div>
+        <div class="full-link">
+          <a href="wireguard-explained.html">View full post</a>
+        </div>
+      </div>
+    </div>
+    
+    <amp-pixel src="../__ptq-3.gif?cd=SCREEN_COLOR_DEPTH-bit&cs=DOCUMENT_CHARSET&ln=BROWSER_LANGUAGE&sd=AVAILABLE_SCREEN_WIDTHxAVAILABLE_SCREEN_HEIGHT&v=1.1&iaa=1&k=1&ccu=CANONICAL_URL&r=DOCUMENT_REFERRER&ct=blog-post&t=Wireguard+Explained&pi=113866210650&a=532220&nc=true&cgi=24763247515&lvi=113866210650&lvc=en&vi=CLIENT_ID(hubspotutk)&ai=CLIENT_ID(amputk)">
+    </amp-pixel>
+    
+  </body>
+</html>
